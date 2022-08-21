@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+  --primary-color-light: rgb(210, 226, 230);
+  --green: rgba(62, 221, 89, 0.671);
+  --green-darker: rgb(7, 161, 32);
+  --yellow: rgba(225, 240, 23, 0.493);
+  --yellow-darker: rgba(255, 238, 0, 0.959);
+  --red: rgba(226, 80, 61, 0.658);
+  --red-darker: rgba(255, 30, 0, 0.938);
+  --dark: rgb(0, 0, 0);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calculator {
+  width: 500px;
+}
+
+.display {
+  padding: 15px;
+  font-size: 30px;
+  width: 100%;
+  text-align: right;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  font-size: 1em;
+  border: none;
+  border-radius: 10px;
+  background-color: #dfdfdf;
+}
+
+.btn:hover {
+  background-color: #929191;
+}
+
+.btn-equal {
+  background-color: #36ada3;
+}
